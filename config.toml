@@ -1,0 +1,11 @@
+baseURL = 'https://test.mixin.city/fann'
+languageCode = 'zh-cn'
+title = "Fann's blog"
+
+theme = "PaperMod"
+
+[markup]
+defaultMarkdownHandler = 'goldmark'
+	[markup.goldmark]
+	[markup.goldmark.renderer]
+		hardWraps = true
